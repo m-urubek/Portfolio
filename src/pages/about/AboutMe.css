@@ -1,0 +1,67 @@
+.about-main {
+  width: 100%;
+}
+
+.basic-about {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* Using flexbox for layout */
+.about-heading-div {
+  display: flex;
+  align-items: center; /* Vertically center items */
+  gap: 20px; /* Add some space between image and text */
+}
+
+.about-heading-img-div {
+  flex: 1; /* Adjust flex ratio as needed */
+  display: flex; /* Use flex to center image if needed */
+  justify-content: center;
+  align-items: center;
+}
+
+.about-heading-img-div img {
+  max-width: 100%;
+  height: auto;
+}
+
+.about-heading-text-div {
+  flex: 2; /* Adjust flex ratio as needed */
+  text-align: left; /* Align text to the left */
+}
+
+.about-heading-text {
+  font-size: 48px; /* Adjust font size */
+  font-weight: 400;
+  font-family: "Google Sans Medium";
+  line-height: 1.1;
+  margin-bottom: 20px; /* Space below title */
+}
+
+.about-header-detail-text {
+  font-size: 18px; /* Adjust font size */
+  line-height: 1.6;
+  font-family: "Google Sans Regular";
+  white-space: pre-wrap; /* Preserve newlines and wrap text */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .about-heading-div {
+    flex-direction: column; /* Stack image and text vertically */
+    text-align: center; /* Center text on smaller screens */
+  }
+
+  .about-heading-text-div {
+    text-align: center; /* Center text block */
+  }
+
+  .about-heading-text {
+    font-size: 32px;
+  }
+
+  .about-header-detail-text {
+    font-size: 16px;
+  }
+} 

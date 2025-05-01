@@ -183,7 +183,12 @@ class Experience extends Component {
             </div>
           </Fade>
         </div>
-        <ExperienceAccordion sections={experience["sections"]} theme={theme} />
+        <div className="experience-content-wrapper">
+          <ExperienceAccordion
+            sections={experience["sections"]}
+            theme={theme}
+          />
+        </div>
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
       </div>

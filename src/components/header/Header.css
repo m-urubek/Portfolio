@@ -1,8 +1,8 @@
 /* header */
 
 .header {
-  display: block;
-  max-width: 90%;
+  display: flex;
+  width: 100%;
   padding: 20px 10px;
   margin: 0px auto;
 }
@@ -23,6 +23,7 @@
   padding: 20px 20px;
   /* color: black; */
   text-decoration: none;
+  white-space: nowrap; /* Prevent text wrapping inside link */
 }
 
 .header li a:hover,
@@ -127,7 +128,7 @@
 
 @media (min-width: 48em) {
   .header li {
-    float: left;
+    /* float: left; */ /* Remove float as parent is flex */
   }
   .header {
     display: flex;
@@ -136,6 +137,8 @@
   }
   .header .menu {
     max-height: none;
+    display: flex;
+    flex-wrap: nowrap;
   }
   .header .menu-icon {
     display: none;

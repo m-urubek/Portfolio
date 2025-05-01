@@ -35,7 +35,6 @@ class ExperienceCard extends Component {
           {index !== totalCards - 1 && (
             <div
               style={{
-                height: 190,
                 width: 2,
                 backgroundColor: `${theme.headerColor}`,
                 position: "absolute",
@@ -45,7 +44,7 @@ class ExperienceCard extends Component {
           )}
         </div>
         <Fade right duration={2000} distance="40px">
-          <div style={{ display: "flex", flexDirection: "row" }}>
+          <div style={{ display: "flex", flexDirection: "row", width: "100%" }}>
             <div
               className="arrow-left"
               style={{ borderRight: `10px solid ${theme.body}` }}
@@ -72,13 +71,17 @@ class ExperienceCard extends Component {
                     className="experience-card-company"
                     style={{ color: theme.text }}
                   >
-                    <a
-                      href={experience["company_url"]}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {experience["company"]}
-                    </a>
+                    {experience.company_url ? (
+                      <a
+                        href={experience.company_url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {experience.company}
+                      </a>
+                    ) : (
+                      experience.company
+                    )}
                   </p>
                 </div>
                 <div>
@@ -105,8 +108,11 @@ class ExperienceCard extends Component {
                   marginTop: 20,
                 }}
               >
-                <div className="repo-description" />
-                {experience["description"]}
+                <div
+                  style={{ color: theme.text, whiteSpace: "pre-wrap"}}
+                >
+                  {experience["description"]}
+                </div>
               </div>
             </div>
           </div>

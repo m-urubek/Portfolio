@@ -1,1 +1,1 @@
-xcopy build\* D:\PersonalWeb\m-urubek.github.io /E /Y /I /H /R
+xcopy build\* D:\Work\PersonalWeb\m-urubek.github.io /E /Y /I /H /R

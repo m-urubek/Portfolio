@@ -149,3 +149,10 @@
     font-size: 12px;
   }
 }
+
+/* Mobile override: switch to block layout so dropdown clears floats */
+@media (max-width: 48em) {
+  .header {
+    display: block;
+  }
+}

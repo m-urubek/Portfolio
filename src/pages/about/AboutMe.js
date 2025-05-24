@@ -34,11 +34,11 @@ class AboutMe extends Component {
                   className="about-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-Haai, so you want to know more about me? Alright then! Let's skip the corporate buzzwords and get to it. I'm a 28-year-old software developer who started his career about 10 years ago with roughly 6 years of total time spent behind a computer screen making money. While my journey started deep in the backend with .NET, I'm increasingly drawn to frontend, especially React. Although I will be glad to consider any kind of software development job for which I have the necessary qualifications.
+Hai, so you want to know more about me? Alright then! Let's skip the corporate buzzwords and get to it. I'm a 28-year-old software developer who started his career about 10 years ago with roughly 6 years of total time spent behind a computer screen making money. While my journey started deep in the backend with .NET, I'm increasingly drawn to frontend, especially React. Although I will be glad to consider any kind of software development job for which I have the necessary qualifications.
 <br/><br/>
 My technical foundation is built on a genuine fascination with how things really work – diving into the fundamental principles of computing– from architecture and electrotechnics to low-level interactions. Honestly, studying this is actually very fascinating and fun!
 <br/><br/>
-You know, coding is great, but I also get a lot out of seeing a team work together effectively and figuring out the best way to tackle a project. I'm a big believer that getting the workflow and collaboration right can increase time efficiency and quality of pumping out code many times over. This whole area, including the stuff scrum masters handle, really interests me, and I'd be happy to step up in those ways.
+I also get a lot out of seeing a team work together effectively and figuring out the best way to tackle a project. I'm a big believer that getting the workflow and collaboration right can increase time efficiency and quality of pumping out code many times over. This whole area, including the stuff scrum masters handle, really interests me, and I'd be happy to step up in those ways.
 <br/><br/>
 While I do thrive in a team (there’s just something special about bouncing ideas around and building together), I’m also perfectly capable of working independently. I’m resourceful, and if I hit a wall, I don’t just stop and wait for help — I dig, experiment, read docs, poke around in the code, and usually come out the other side with a working solution (and probably a better understanding of the system too). 
 <br/><br/>

@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Martin Urubek's Portfolio",
   description:
-    "Software developer specializing in ASP.NET, SharePoint (PnP Core SDK, SPFx), and Azure. Passionate about creating clean, efficient, and scalable solutions.",
+    "Full-stack software developer specializing in React, TypeScript, Node.js, 3D configurators, ASP.NET, SharePoint (PnP Core SDK, SPFx), and Azure. Passionate about creating clean, efficient, and scalable solutions.",
   og: {
     title: "Martin Urubek Portfolio",
     type: "website",
@@ -23,9 +23,9 @@ const greeting = {
   logo_name: "MartinUrubek", // Can be changed
   nickname: "m-urubek", // Optional: using GitHub handle
   subTitle:
-    "Software developer specializing in ASP.NET, SharePoint (PnP Core SDK, SPFx), and Azure. Passionate about creating clean, efficient, and scalable solutions. Interested in React and DevOps practices.",
+    "Full-stack software developer specializing in React, TypeScript, Node.js, 3D configurators, ASP.NET, SharePoint (PnP Core SDK, SPFx), and Azure. Passionate about creating clean, efficient, and scalable solutions. Experienced in team leadership and agentic programming.",
   resumeLink:
-    "https://drive.google.com/file/d/1s4wOsyn00c_L8uFr5X4Lf8rVV4pG1wE6/", 
+    "https://drive.google.com/file/d/1s4wOsyn00c_L8uFr5X4Lf8rVV4pG1wE6/",
   portfolio_repository: "https://github.com/m-urubek",
   githubProfile: "https://github.com/m-urubek",
 };
@@ -57,13 +57,37 @@ const skills = {
       title: "Software Development",
       fileName: "DataScienceImg", // Can be changed to a more relevant image name
       skills: [
+        "⚡ Developing full-stack applications using React, TypeScript, and Node.js",
+        "⚡ Creating interactive 3D experiences and configurators using Three.js and WebGL",
         "⚡ Developing backend systems using .NET and ASP.NET",
         "⚡ Designing and implementing both robust and brand new projects incl. their software architecture",
         "⚡ Creating functional, efficient, readable, and scalable code with strong foundational knowledge spanning computer architecture, electrotechnical principles, low-level programming, and OS/firmware interaction",
         "⚡ Utilizing AI assisted and AI-driven techniques to enhance development efficiency and outcomes",
         "⚡ Designing practical solutions based on advanced theoretical concepts like graph theory, state machines, and dynamic programming",
+        "⚡ Leading development teams and mentoring junior developers",
       ],
       softwareSkills: [
+        {
+          skillName: "React",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "TypeScript",
+          fontAwesomeClassname: "simple-icons:typescript",
+          style: {
+            color: "#3178C6",
+          },
+        },
+        {
+          skillName: "Node.js",
+          fontAwesomeClassname: "simple-icons:nodedotjs",
+          style: {
+            color: "#339933",
+          },
+        },
         {
           skillName: ".NET",
           fontAwesomeClassname: "simple-icons:dotnet",
@@ -274,7 +298,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work Experience", // Adjusted subtitle
   description:
-    "Experienced in developing robust software solutions, particularly within the SharePoint ecosystem using ASP.NET and PnP Core. Skilled in backend development, system architecture, and Azure management. Proven ability to train junior developers and manage work through Azure DevOps.",
+    "Experienced in developing full-stack solutions with React, TypeScript, and Node.js, including interactive 3D configurators. Strong background in ASP.NET, SharePoint ecosystem (PnP Core SDK), and Azure. Proven ability to lead development teams, mentor junior developers, and manage complex projects through Azure DevOps. Skilled in agentic programming and AI-assisted development.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -283,13 +307,26 @@ const experience = {
       experiences: [
         {
           title: "Software Developer",
+          company: "Salsita, s.r.o.",
+          company_url: "https://www.salsitasoft.com/",
+          logo_path: "salsita_logo.png",
+          duration: "Jul 2025 - Present",
+          location: "Prague",
+          description: `⚡ Led a team in bringing an interactive 3D configurator to life
+⚡ Designed and coded a configurator from a sketch to a launch
+⚡ Met with customers to listen to their feedback and represent our team's work
+⚡ Built infrastructure for agentic programming
+⚡ Hand-crafted 3D models of the customer's products`,
+          color: "#0066CC",
+        },
+        {
+          title: "Software Developer",
           company: "Allium s.r.o.",
           company_url: "https://www.allium.cz/", // Add company URL if available
           logo_path: "allium_logo.svg", // Replace with actual logo file name
           duration: "Nov 2019 – Present",
           location: "Remote, Czech Republic - Brno",
-          description:
-`⚡ Designed architecture and programmed the foundation of a brand-new large-scale project
+          description: `⚡ Designed architecture and programmed the foundation of a brand-new large-scale project
 ⚡ Independently found and utilized 3rd party libraries to create various tools together with integration into the company’s robust systems
 ⚡ Mentored juniors, organized and integrated their work
 ⚡ Trained colleagues in AI assisted programming
@@ -303,8 +340,7 @@ const experience = {
           logo_path: "esports_logo.png", // Placeholder logo
           duration: "May 2018 – Sep 2021",
           location: "Remote", // Adjust location if needed
-          description:
-`⚡ Dedicated leadership of competitive teams - management and coordination of large tournaments, mentoring beginner managers and coaches
+          description: `⚡ Dedicated leadership of competitive teams - management and coordination of large tournaments, mentoring beginner managers and coaches
 ⚡ Strategic planning, management of human resources, social analysis, internal group communication, formal communication with external parties and other team dynamics`,
           color: "#9B59B6", // Example purple color
         },
@@ -315,12 +351,11 @@ const experience = {
           logo_path: "spsoft_logo.webp", // Replace with actual logo file name
           duration: "June 2018 – Nov 2019",
           location: "Remote, Czech Republic - Brno, Velké Meziříčí",
-          description:
-`⚡ Translated business requirements into technical solutions for the complex multipurpose (mainly MES) system while coordinating with other developers
+          description: `⚡ Translated business requirements into technical solutions for the complex multipurpose (mainly MES) system while coordinating with other developers
 ⚡ Contributed to quality assurance through manual and unit testing`,
           color: "#33CFFF", // Example color, can be adjusted
         },
-        
+
         {
           title: "Independent Software Developer",
           company: "Freelance", // Changed company name for clarity
@@ -328,8 +363,7 @@ const experience = {
           logo_path: "freelance_logo.png", // Use a generic freelance/code logo
           duration: "2015 - 2018",
           location: "Remote",
-          description:
-`⚡ Consulted representatives of companies to analyze their business requirements and then subsequently developed two small-scale desktop applications
+          description: `⚡ Consulted representatives of companies to analyze their business requirements and then subsequently developed two small-scale desktop applications
 ⚡ Developed a module for NUVIA a.s. automating report generation in LibreOffice formats`,
           color: "#F1C40F", // Example color, can be adjusted
         },

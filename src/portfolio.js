@@ -306,7 +306,7 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Software Developer",
+          title: "Software Lead & Full Stack",
           company: "Salsita, s.r.o.",
           company_url: "https://www.salsitasoft.com/",
           logo_path: "salsita_logo.png",

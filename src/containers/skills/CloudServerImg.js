@@ -2,7 +2,6 @@ import React, { Component } from "react";
 
 export default class CloudServerImg extends Component {
   render() {
-    const theme = this.props.theme; // Theme prop available if needed for styling
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"

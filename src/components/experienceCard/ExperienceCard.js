@@ -9,10 +9,7 @@ class ExperienceCard extends Component {
     const totalCards = this.props.totalCards;
     const theme = this.props.theme;
     return (
-      <div
-        className="experience-list-item"
-        style={{ marginTop: index === 0 ? 30 : 50 }}
-      >
+      <div className="experience-list-item" style={{ marginTop: index === 0 ? 30 : 50 }}>
         <Fade left duration={2000} distance="40px">
           <div className="experience-card-logo-div">
             <img
@@ -22,37 +19,10 @@ class ExperienceCard extends Component {
             />
           </div>
         </Fade>
-        <div className="experience-card-stepper">
-          <div
-            style={{
-              width: 20,
-              height: 20,
-              backgroundColor: `${theme.headerColor}`,
-              borderRadius: 50,
-              zIndex: 100,
-            }}
-          />
-          {index !== totalCards - 1 && (
-            <div
-              style={{
-                width: 2,
-                backgroundColor: `${theme.headerColor}`,
-                position: "absolute",
-                marginTop: 20,
-              }}
-            />
-          )}
-        </div>
-        <Fade right duration={2000} distance="40px">
+        <Fade bottom duration={2000} distance="40px" style={{ flex: 1 }}>
           <div style={{ display: "flex", flexDirection: "row", width: "100%" }}>
-            <div
-              className="arrow-left"
-              style={{ borderRight: `10px solid ${theme.body}` }}
-            ></div>
-            <div
-              className="experience-card"
-              style={{ background: `${theme.body}` }}
-            >
+            <div className="arrow-left" style={{ borderRight: `10px solid ${theme.body}` }}></div>
+            <div className="experience-card" style={{ background: `${theme.body}` }}>
               <div
                 style={{
                   display: "flex",
@@ -61,22 +31,12 @@ class ExperienceCard extends Component {
                 }}
               >
                 <div>
-                  <h3
-                    className="experience-card-title"
-                    style={{ color: theme.text }}
-                  >
+                  <h3 className="experience-card-title" style={{ color: theme.text }}>
                     {experience["title"]}
                   </h3>
-                  <p
-                    className="experience-card-company"
-                    style={{ color: theme.text }}
-                  >
+                  <p className="experience-card-company" style={{ color: theme.text }}>
                     {experience.company_url ? (
-                      <a
-                        href={experience.company_url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
+                      <a href={experience.company_url} target="_blank" rel="noopener noreferrer">
                         {experience.company}
                       </a>
                     ) : (
@@ -86,16 +46,10 @@ class ExperienceCard extends Component {
                 </div>
                 <div>
                   <div className="experience-card-heading-right">
-                    <p
-                      className="experience-card-duration"
-                      style={{ color: theme.secondaryText }}
-                    >
+                    <p className="experience-card-duration" style={{ color: theme.secondaryText }}>
                       {experience["duration"]}
                     </p>
-                    <p
-                      className="experience-card-location"
-                      style={{ color: theme.secondaryText }}
-                    >
+                    <p className="experience-card-location" style={{ color: theme.secondaryText }}>
                       {experience["location"]}
                     </p>
                   </div>
@@ -108,11 +62,7 @@ class ExperienceCard extends Component {
                   marginTop: 20,
                 }}
               >
-                <div
-                  style={{ color: theme.text, whiteSpace: "pre-wrap"}}
-                >
-                  {experience["description"]}
-                </div>
+                <div style={{ color: theme.text, whiteSpace: "pre-wrap" }}>{experience["description"]}</div>
               </div>
             </div>
           </div>

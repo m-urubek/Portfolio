@@ -1,6 +1,11 @@
-.github
-images
 node_modules
 build
-public
-*.json
+dist
+.cache
+coverage
+.git
+.gitignore
+.prettierignore
+package-lock.json
+yarn.lock
+pnpm-lock.yaml

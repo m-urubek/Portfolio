@@ -19,11 +19,20 @@
 
 .greeting-main {
   display: flex;
+  gap: 10px;
 }
 
 .greeting-main > * {
-  flex: 1;
   margin-bottom: 30px;
+}
+
+.greeting-text-div {
+  flex: 1.2;
+}
+
+.greeting-image-div {
+  flex: 0.8;
+  margin-left: 20px;
 }
 .button-greeting-div {
   display: flex;
@@ -31,7 +40,7 @@
 }
 
 .greeting-text {
-  margin-top: 80px;
+  margin-top: 20px;
   font-size: 70px;
   line-height: 1.1;
   font-family: "Google Sans Bold";
@@ -51,9 +60,22 @@
   font-family: "Google Sans Medium";
 }
 
+.greeting-bullets {
+  margin-right: 40px;
+  margin-bottom: 10px;
+}
+
+.greeting-bullet-point {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 8px 0;
+  font-family: "Google Sans Medium";
+}
+
 .greeting-image-div > * {
   max-width: 100%;
   height: auto;
+  max-height: 700px;
 }
 
 .social-media-div {
@@ -103,6 +125,13 @@
     margin-right: 0px;
     line-height: normal;
     text-align: center;
+  }
+  .greeting-bullet-point {
+    font-size: 14px;
+    text-align: center;
+  }
+  .greeting-bullets {
+    margin-right: 0px;
   }
   .greeting-main {
     display: block;

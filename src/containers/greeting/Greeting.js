@@ -22,12 +22,14 @@ export default function Greeting(props) {
                   ( {greeting.nickname} )
                 </h2>
               )}
-              <p
-                className="greeting-text-p subTitle"
-                style={{ color: theme.secondaryText }}
-              >
-                {greeting.subTitle}
-              </p>
+              <div className="greeting-bullets" style={{ color: theme.secondaryText }}>
+                {greeting.bulletPoints &&
+                  greeting.bulletPoints.map((point, index) => (
+                    <p key={index} className="greeting-bullet-point">
+                      • <strong>{point.bold}</strong> {point.text}
+                    </p>
+                  ))}
+              </div>
               <div className="social-media-div">
                 <SocialMedia theme={theme} />
               </div>
@@ -41,12 +43,7 @@ export default function Greeting(props) {
                 />
               </div>
               <div className="resume-btn-div">
-                <Button
-                  text="See My Resume"
-                  newTab={true}
-                  href={greeting.resumeLink}
-                  theme={theme}
-                />
+                <Button text="See My Resume" newTab={true} href={greeting.resumeLink} theme={theme} />
               </div>
               {/* <div className="button-greeting-div">
               <Button text="Contact me" href="#contact" />

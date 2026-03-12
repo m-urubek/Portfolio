@@ -25,6 +25,32 @@
           "iconifyClass": "simple-icons:blazor"
         }
       ]
+    },
+    {
+      "id": "infinite-interns-m-urubek",
+      "name": "Infinite Interns",
+      "url": "https://github.com/m-urubek/infinite-interns",
+      "createdAt": "2025-06-01T00:00:00Z",
+      "description": "A LangGraph-based autonomous software development pipeline that orchestrates specialized AI agents to automate feature implementation.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "TypeScript",
+          "iconifyClass": "logos-typescript-icon"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "LangGraph",
+          "iconifyClass": "simple-icons:langchain"
+        },
+        {
+          "name": "TailwindCSS",
+          "iconifyClass": "logos-tailwindcss-icon"
+        }
+      ]
     }
   ]
 }

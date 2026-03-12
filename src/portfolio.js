@@ -374,8 +374,8 @@ const experience = {
           logo_path: "freelance_logo.png", // Use a generic freelance/code logo
           duration: "2015 - 2018",
           location: "Remote",
-          description: `⚡ Consulted representatives of companies to analyze their business requirements and then subsequently developed two small-scale desktop applications
-⚡ Developed a module for NUVIA a.s. automating report generation in LibreOffice formats`,
+          description: `⚡ Selected as one of only two high school students for a company collaboration program — developed a module for NUVIA a.s. automating report generation in LibreOffice formats
+⚡ The early start led to consulting representatives of companies and developing two small-scale desktop applications — all while still in high school`,
           color: "#F1C40F", // Example color, can be adjusted
         },
       ],

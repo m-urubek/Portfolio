@@ -4,8 +4,8 @@
       "id": "maphive-m-urubek",
       "name": "MapHive",
       "url": "https://github.com/m-urubek/MapHive",
-      "createdAt": "2025-03-12T00:00:00Z",
-      "description": "An ASP.NET Core MVC web application for visualizing, collaborating and interacting with map data.",
+      "createdAt": "2025-dec",
+      "description": "MapHive is an ASP.NET Core 8 MVC application designed for sharing places on a map within a community. Users can add places of interest, which are displayed as pins on an interactive map. Each pin links to a detailed page where users can find more information, participate in discussions, and leave reviews.\n\nThe app provides various tools for admins such as management of places categories, accounts management, database access. The design is plain bootstrap intended to be styled in the forked repository.",
       "isFork": false,
       "languages": [
         {
@@ -30,8 +30,8 @@
       "id": "infinite-interns-m-urubek",
       "name": "Infinite Interns",
       "url": "https://github.com/m-urubek/infinite-interns",
-      "createdAt": "2025-06-01T00:00:00Z",
-      "description": "A LangGraph-based autonomous software development pipeline that orchestrates specialized AI agents to automate feature implementation.",
+      "createdAt": "2026-feb",
+      "description": "A LangGraph-based autonomous development pipeline that orchestrates specialized AI agents to implement features end-to-end, complete with a React UI for management. The pipeline is generic and highly customizable with togglable modules.\n\nAt its core, the pipeline assumes that initial feature definitions are incomplete. Before any code is written, it runs an interactive clarification phase with the developer to fill in gaps and ambiguities, ensuring a solid specification before implementation begins. From there, Infinite Interns handles implementation, documentation, and test updates automatically — resources that are essential for high-quality AI-driven results.\n\nInfinite Interns compresses roughly 5 hours of manual work into 30 minutes. The developer's role shifts from writing step-by-step prompts to defining the desired features and refining the output, delivering consistently better results than fully AI-generated code from conventional agentic tools.",
       "isFork": false,
       "languages": [
         {

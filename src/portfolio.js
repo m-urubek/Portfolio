@@ -331,17 +331,16 @@ const experience = {
           color: "#0066CC",
         },
         {
-          title: "Software Developer",
+          title: "Software Lead & Full Stack",
           company: "Allium s.r.o.",
           company_url: "https://www.allium.cz/", // Add company URL if available
           logo_path: "allium_logo.svg", // Replace with actual logo file name
           duration: "Nov 2019 – Jun 2025",
           location: "Remote, Czech Republic - Brno",
-          description: `⚡ Designed architecture and programmed the foundation of a brand-new large-scale project
-⚡ Independently found and utilized 3rd party libraries to create various tools together with integration into the company’s robust systems
-⚡ Mentored juniors, organized and integrated their work
-⚡ Trained colleagues in AI assisted programming
-⚡ Translated business requirements into technical solutions for the enterprise SharePoint DMS system while coordinating with other developers`,
+          description: `⚡ Lead a team in rewriting an enterprise project
+⚡ Create various libraries together with integration into the company's robust systems
+⚡ Built infrastructure for AI assisted programming and trained colleges in it
+⚡ Translated business requirements into technical solutions for the enterprise SharePoint DMS`,
           color: "#FF5733", // Example color, can be adjusted
         },
         {
